@@ -149,6 +149,12 @@ section .image-section-1 {
     display: block;
 }
 
+#contact .form-area {
+    background-color:#F8F9FA;
+    padding: 48px 64px;
+    border-radius: 24px;
+}
+
 .contact-methods {
     display: flex;
     justify-content: space-between;
@@ -159,8 +165,9 @@ form textarea,
 form button {
     display: block;
     width: 320px;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
     padding: 8px;
+    border-radius: 8px;
 }
 
 form textarea {
