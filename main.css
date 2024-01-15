@@ -159,7 +159,18 @@ section .image-section-1 {
 }
 
 #contact .container {
-    display: block;
+    display: flex;
+    justify-content: space-between;
+}
+
+section .contact-methods {
+    width: 50%;
+    padding: 64px 0;
+}
+
+section .image-contact {
+    width: 40%;
+    margin-top: 160px;
 }
 
 #contact .form-area {
@@ -168,16 +179,11 @@ section .image-section-1 {
     border-radius: 24px;
 }
 
-.contact-methods {
-    display: flex;
-    justify-content: space-between;
-}
-
 form input,
 form textarea,
 form button {
-    display: block;
-    width: 320px;
+    width: 100%;
+    min-width: 240px;
     margin-bottom: 24px;
     padding: 16px;
     border-radius: 8px;
