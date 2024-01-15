@@ -24,6 +24,10 @@ input, textarea {
     font-size: 16px;
 }
 
+form button {
+    font-size: 18px;
+}
+
 section h1 {
     font-size:48px;
     line-height: 72px;
@@ -160,7 +164,7 @@ section .image-section-1 {
 
 #contact .form-area {
     background-color:#F8F9FA;
-    padding: 48px 64px 24px 64px;
+    padding: 32px 64px 24px 64px;
     border-radius: 24px;
 }
 
@@ -175,14 +179,14 @@ form button {
     display: block;
     width: 320px;
     margin-bottom: 24px;
-    padding: 8px;
+    padding: 16px;
     border-radius: 8px;
     border-width: 1px;
 }
 
 form textarea {
     resize: none;
-    height: 180px;
+    height: 120px
 }
 
 form textarea:focus, form input:focus {
@@ -190,11 +194,11 @@ form textarea:focus, form input:focus {
 }
 
 form button {
-    border-radius: 20px;
+    border-radius: 32px;
     border: none;
     background-color: #3F4CD3;
     color: #ecf0f1;
-    height: 40px;
+    height: 56px;
     cursor: pointer;
 }
 
