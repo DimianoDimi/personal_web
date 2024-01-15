@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h1,
+section h2,
+section h3,
+form button,
+.s1coluna-1 a {
+    font-family: 'Poppins', sans-serif;;
+    font-weight: 900;
+}
+
+body, input, textarea {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+
+section h1 {
+    font-size:48px;
+    line-height: 72px;
+}
+
+.destacado-1 {
+    text-decoration-line: underline;
+    text-decoration-color: #FFD569;
+    text-decoration-thickness: 0.2em; 
+}
+
+.destacado-2 {
+    text-decoration: solid;
+    background-color: #FECECE;
+}
+
+header {
+    padding: 24px 0px;
+    background: color #f8f9fa;;
+    color: #2B2B2B;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #2B2B2B;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-mila-k {
+    height: 40px;
+}
+
+.linha-divisoria {
+    border-top: 1px solid #EEEEEE; 
+}
+
+.brands-list img {
+    height: 24px;
+    margin: 8px 0;
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container {
+    align-items: flex-start;
+    column-gap: 104px;
+    margin-bottom: 120px;
+}
+
+section h1{
+    margin-bottom: 24px;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section {
+    color: #2B2B2B;
+}
+
+section .s1coluna-1 p{
+    margin-bottom: 48px;
+}
+
+section .s1coluna-1 {
+    width: 50%;
+    padding: 64px 0;
+}
+
+section .image-section-1 {
+    width: 40%;
+}
+
+.s1coluna-1 a {
+    text-decoration: none;
+    padding-block: 16px;
+    padding-inline: 48px;
+    background-color: #3F4CD3;
+    color: #ffffff;
+    border-radius: 32px;
+}
+
+.s1coluna-1 a:hover {
+        background-color: #1724A8;
+        color: #ecf0f1;
+    }
+
+.store-front {
+    margin-right: 32px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 16px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form textarea:focus, form input:focus {
+    outline-color: #182C61;
+}
+
+form button {
+    border-radius: 20px;
+    border: none;
+    background-color: #182C61;
+    color: #ecf0f1;
+    height: 40px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(55, 55, 202);
+    color: #ecf0f1;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+footer {
+    padding:32px 0;
+    background-color:#182C61;
+    color: #ecf0f1;
+}
