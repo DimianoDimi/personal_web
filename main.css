@@ -9,7 +9,8 @@ section h1,
 section h2,
 section h3,
 form button,
-.s1coluna-1 a {
+.s1coluna-1 a,
+footer h3 {
     font-family: 'Poppins', sans-serif;;
     font-weight: 900;
 }
@@ -168,6 +169,10 @@ section .contact-methods {
     padding: 64px 0;
 }
 
+section .contact-methods li {
+    display: table-row;
+}
+
 section .image-contact {
     width: 40%;
     margin-top: 160px;
@@ -209,12 +214,12 @@ form button {
 }
 
 form button:hover {
-    background-color: rgb(55, 55, 202);
+    background-color:  #1724A8;
     color: #ecf0f1;
 }
 
 footer {
     padding:32px 0;
-    background-color:#182C61;
-    color: #ecf0f1;
+    background-color:#BBC0F5;
+    color: #2B2B2B;
 }
