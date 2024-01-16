@@ -142,21 +142,14 @@ section .image-section-1 {
         color: #ecf0f1;
     }
 
-.store-front {
-    margin-right: 32px;
+.cards-work {
+    justify-content: center;
 }
 
-.social-links img {
-    height: 24px;
-}
-
-.social-links li {
+.cards-work li {
     display: inline;
-    margin-right: 8px;
-}
-
-.social-links li a {
-    text-decoration: none;
+    justify-content: center;
+    margin-inline: 48px;
 }
 
 #contact .container {
