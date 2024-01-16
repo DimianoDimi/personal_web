@@ -142,14 +142,34 @@ section .image-section-1 {
         color: #ecf0f1;
     }
 
-.cards-work {
-    justify-content: center;
+.container-centralizado {
+    max-width: 1280px;
+    width: 100%;
+    margin-bottom: 120px;
 }
 
-.cards-work li {
-    display: inline;
-    justify-content: center;
+#work h2 {
+    text-align: center;
+}
+
+#work .container-centralizado {
+    text-align: center;
+}
+
+.container-centralizado li {
+    display: inline-block;
+    justify-items: center;
+    text-align: center;
     margin-inline: 48px;
+}
+
+.container-centralizado a {
+    text-decoration: none;
+    padding-block: 16px;
+    padding-inline: 48px;
+    background-color: #ffffff;
+    color:  #2B2B2B;
+    border-radius: 32px;
 }
 
 #contact .container {
