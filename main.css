@@ -15,10 +15,18 @@ footer h3 {
     font-weight: 900;
 }
 
-body {
+body,
+.social-links li a {
     font-family: 'Quicksand', sans-serif;
     font-size: 20px;
     color: #555555;
+}
+
+.social-links li a:hover {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    color:#2B2B2B
 }
 
 input, textarea {
@@ -234,7 +242,6 @@ section .image-section-1 {
 
 section .s3coluna1 {
     width: 50%;
-    padding: 64px 0;
     justify-content: flex-start;
 }
 
@@ -346,6 +353,46 @@ form button:hover {
 }
 
 footer {
+    text-align: center;
     padding:32px 0;
     background-color:#BBC0F5;
 }
+
+.social-links img {
+    height: 48px;
+    width: 48px;
+    margin-bottom: 8px;
+}
+
+.social-links ul {
+    display: inline-block;
+    justify-content: flex-start;
+}
+
+.social-links li {
+    display: inline-flex;
+    justify-items: center;
+    text-align: left;
+    margin-inline: 32px;
+    margin-top: 32px;
+    margin-bottom: 64px;
+}
+
+.social-links li a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    width: 120px;
+    color:#2B2B2B
+}
+
+.social-links a:hover {
+    background-color: rgba(255, 255, 255, 0.227);
+    box-sizing: border-box;
+    border-radius: 24px;
+    padding: 16px;
+    transform: none;
+    transition: none;
+    }

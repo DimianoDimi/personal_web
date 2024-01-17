@@ -1,10 +1,14 @@
 # Changelog
 
 
-## [Versão 1.0.1] - 2024-01-16
+## [Versão 1.0.1] - 2024-01-17
 
 ### Add
-- Css cards
+- Section Skills: structure and style
+- Footer style and links
+
+#### Updated
+- Upkeep style cards work
 
 
 ## [Versão 1.0.1] - 2024-01-16
@@ -12,6 +16,7 @@
 ### Add
 - Structure and css for section 1
 - Html cards section work
+- Section contact: structure and style
 
 
 ## [Versão 1.0.0] - 2024-01-15
