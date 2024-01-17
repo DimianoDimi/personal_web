@@ -62,7 +62,8 @@ header nav li a {
     text-decoration: none;
 }
 
-.container {
+.container,
+.container-centralizado {
     max-width: 1280px;
     width: 100%;
     margin: 0 auto;
@@ -145,9 +146,13 @@ section .image-section-1 {
 .container-centralizado {
     max-width: 1280px;
     width: 100%;
-    margin-bottom: 120px;
 }
 
+#work {
+    background-color:  #EEF0FF;
+    padding-top: 80px;
+    padding-bottom: 88px;
+}
 
 #work h2 {
     text-align: center;
@@ -201,13 +206,14 @@ section .image-section-1 {
 .container-centralizado li {
     display: inline-block;
     justify-items: center;
-    text-align: center;
+    text-align: left;
     margin-inline: 32px;
 }
 
-#contact .container {
-    display: flex;
-    justify-content: space-between;
+#skills {
+    background-color: #F8F9FA;
+    padding-top: 80px;
+    padding-bottom: 88px;
 }
 
 section .contact-methods {
