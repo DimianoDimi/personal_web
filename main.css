@@ -148,6 +148,7 @@ section .image-section-1 {
     margin-bottom: 120px;
 }
 
+
 #work h2 {
     text-align: center;
 }
@@ -156,20 +157,52 @@ section .image-section-1 {
     text-align: center;
 }
 
+.container-centralizado a {
+    text-decoration: none;
+    color: #2B2B2B;
+}
+
+.card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card {
+    width: 300px;
+    border: none;
+    border-radius: 16px;
+    box-shadow: 1px 4px 12px 2px rgba(24, 24, 24, 0.06);
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 16px;
+}
+
+.card h3 {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.card p {
+    margin: 0;
+}
+
 .container-centralizado li {
     display: inline-block;
     justify-items: center;
     text-align: center;
-    margin-inline: 48px;
-}
-
-.container-centralizado a {
-    text-decoration: none;
-    padding-block: 16px;
-    padding-inline: 48px;
-    background-color: #ffffff;
-    color:  #2B2B2B;
-    border-radius: 32px;
+    margin-inline: 32px;
 }
 
 #contact .container {
