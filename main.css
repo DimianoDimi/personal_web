@@ -106,7 +106,7 @@ section h1{
 }
 
 section h2 {
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 
 section h3 {
@@ -224,13 +224,73 @@ section .image-section-1 {
 
 #skills {
     background-color: #F8F9FA;
+}
+
+#skills .container {
     padding-top: 80px;
     padding-bottom: 88px;
+    margin: none;
+}
+
+section .s3coluna1 {
+    width: 50%;
+    padding: 64px 0;
+    justify-content: flex-start;
+}
+
+section .s3coluna1 li {
+    margin-bottom: 24px;
+}
+
+section .s3coluna2 {
+    width: 40%;
+    margin-top: 140px;
+}
+
+
+.card2-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card2 {
+    display: inline-flex;
+    align-items: center;
+    min-height: 120px;
+    border: none;
+    padding: 24px;
+    border-radius: 16px;
+    box-shadow: 1px 4px 12px 2px rgba(24, 24, 24, 0.06);
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+    background-color: #ffffff;
+}
+
+.card2:hover {
+    transform: scale(1.05);
+}
+
+.card2 img {
+    height: 96px;
+    width: 96px;
+}
+
+.card2-content {
+    flex: 1;
+    padding: 15px;
+}
+
+.card2 h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.card2 p {
+    margin: 0;
 }
 
 section .contact-methods {
     width: 50%;
-    padding: 64px 0;
 }
 
 section .contact-methods li {
@@ -239,7 +299,7 @@ section .contact-methods li {
 
 section .image-contact {
     width: 40%;
-    margin-top: 160px;
+    margin-top: 88px;
 }
 
 #contact .form-area {
